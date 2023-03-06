@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="/src/output.css" rel="stylesheet">
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+</head>
+<body class="border border-Lgb2 3xl:container 3xl:mx-auto font-PlusJakartaSans">
+
+  <main class="w-full h-auto py-[70px] bg-Vlgb 3xl:px-[300px] 2xl:px-[250px] xl:px-[150px] lg:px-[120px] lg:py-[50px] md:px-[13%] sm:px-[2%] sm:py-[5%]">
+
+    <div class="w-full h-auto rounded-[20px] md:p-[30px] bg-white sm:rounded-[10px] sm:p-[15px]">
+
+      <div class="w-full h-auto py-[15px] flex items-center justify-between mb-[30px]">
+
+        <h1 class="w-1/2 text-[1.5rem] font-[700] lg:text-[1.3rem] md:text-[1.1rem] sm:text-[1rem]">
+          Notifications 
+          <span class="font[400] text-[1.2rem] text-white px-[10px] py-[1px] bg-Blue rounded-[5px] lg:text-[1.1rem] md:text-[.9rem] sm:text-[.8rem]" id="new-notf-id">
+            3
+          </span>
+        </h1>
+
+        <p class="w-1/2 text-right text-Gb font-[500] text-[1rem] hover:text-Blue hover:font-[600] cursor-pointer lg:text-[.9rem] sm:text-[.8rem]" id="mark-as-read">
+          Mark all as read
+        </p>
+      </div>
+
+      <div class="w-full h-auto p-[20px] bg-Vlgb flex items-center justify-between mb-[10px] md:p-[10px] sm:p-[5px]" id="new-notf">
+
+        <img src="../images/avatar-mark-webber.webp" alt="" class="lg:w-[50px] lg:h-[50px] md:w-[45px] md:h-[45px] sm:w-[40px] sm:h-[40px]">
+
+        <div class="w-[90%] h-auto lg:w-[85%] md:w-[80%] sm:w-[80%]">
+
+          <p class="text-[.9rem] text-Gb sm:text-[.8rem]">
+            <strong class="font-[800] text-Vdb hover:text-Blue cursor-pointer">
+              Mark Webber
+            </strong> 
+            reacted to your recent post 
+            <strong class="font-[700] text-Dgb hover:text-Blue cursor-pointer">
+              My first tournament today!
+            </strong>
+            <span class="text-Red p-[0px] leading-[0px] font-mono font-[900] text-[2.5rem]" id="not-icon">.</span>
+          </p>
+          <p class="text-[.9rem] text-Gb sm:text-[.8rem]">
+            1m ago
+          </p>
+        </div>
+      </div>
+
+      <div class="w-full h-auto p-[20px] bg-Vlgb flex items-center justify-between mb-[10px] md:p-[10px] sm:p-[5px]" id="new-notf">
+
+        <img src="../images/avatar-angela-gray.webp" alt="" class="lg:w-[50px] lg:h-[50px] md:w-[45px] md:h-[45px] sm:w-[40px] sm:h-[40px]">
+
+        <div class="w-[90%] h-auto lg:w-[85%] md:w-[80%] sm:w-[80%]">
+
+          <p class="text-[.9rem] text-Gb sm:text-[.8rem]">
+            <strong class="font-[800] text-Vdb hover:text-Blue cursor-pointer">
+              Angela Gray
+            </strong> 
+            followed you
+            <span class="text-Red p-[0px] leading-[0px] font-mono font-[900] text-[2.5rem]" id="not-icon">.</span>
+          </p>
+          <p class="text-[.9rem] text-Gb sm:text-[.8rem]">5m ago</p>
+        </div>
+      </div>
+      
+      <div class="w-full h-auto p-[20px] bg-Vlgb flex items-center justify-between mb-[10px] md:p-[10px] sm:p-[5px]" id="new-notf">
+
+        <img src="../images/avatar-jacob-thompson.webp" alt="" class="lg:w-[50px] lg:h-[50px] md:w-[45px] md:h-[45px] sm:w-[40px] sm:h-[40px]">
+
+        <div class="w-[90%] h-auto lg:w-[85%] md:w-[80%] sm:w-[80%]">
+
+          <p class="text-[.9rem] text-Gb sm:text-[.8rem]">
+            <strong class="font-[800] text-Vdb hover:text-Blue cursor-pointer">
+              Jacob Thompson
+            </strong> 
+            has joined your group 
+            <strong class="font-[700] text-Dgb hover:text-Blue cursor-pointer">
+              Chess Club
+            </strong>
+            <span class="text-Red p-[0px] leading-[0px] font-mono font-[900] text-[2.5rem]" id="not-icon">.</span>
+          </p>
+          <p class="text-[.9rem] text-Gb sm:text-[.8rem]">1 day ago</p>
+        </div>
+      </div>
+
+      <div class="w-full h-auto p-[20px] flex items-start justify-between mb-[10px] md:p-[10px] sm:p-[5px]">
+
+        <img src="../images/avatar-rizky-hasanuddin.webp" alt="" class="lg:w-[50px] lg:h-[50px] md:w-[45px] md:h-[45px] sm:w-[40px] sm:h-[40px]">
+
+        <div class="w-[90%] h-auto lg:w-[85%] md:w-[80%] sm:w-[80%]">
+          <p class="text-[.9rem] text-Gb sm:text-[.8rem]">
+            <strong class="font-[800] text-Vdb hover:text-Blue cursor-pointer">
+              Rizky Hasanuddin
+            </strong> 
+            sent you a private message
+          </p>
+          <p class="text-[.9rem] text-Gb sm:text-[.8rem]">5 day ago</p>
+          <p class="text-[.9rem] text-Gb p-[20px] rounded-[10px] border border-Lgb2 mt-[10px] hover:border-none hover:bg-Lgb2 cursor-pointer sm:text-[.8rem] sm:p-[10px]">
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+            I'm already having lots of fun and improving my game.
+          </p>
+        </div>
+      </div>
+
+      <div class="w-full h-auto p-[20px] flex items-center justify-between mb-[10px] md:p-[10px] sm:p-[5px]">
+
+        <img src="../images/avatar-kimberly-smith.webp" alt="" class="lg:w-[50px] lg:h-[50px] md:w-[45px] md:h-[45px] sm:w-[40px] sm:h-[40px]">
+
+        <div class="w-[80%] h-auto lg:w-[70%] sm:w-[60%]">
+          <p class="text-[.9rem] text-Gb sm:text-[.8rem]">
+            <strong class="font-[800] text-Vdb hover:text-Blue cursor-pointer">
+              Kimberly Smith
+            </strong> 
+            commented on your picture
+          </p>
+          <p class="text-[.9rem] text-Gb sm:text-[.8rem]">1 week ago</p>
+        </div>
+        <img src="../images/image-chess.webp" alt="" class="w-[50px] h-[50px] cursor-pointer md:w-[45px] md:h-[45px] sm:w-[40px] sm:h-[40px]">
+      </div>
+
+      <div class="w-full h-auto p-[20px] flex items-center justify-between md:p-[10px] sm:p-[5px]">
+
+        <img src="../images/avatar-nathan-peterson.webp" alt="" class="lg:w-[50px] lg:h-[50px] md:w-[45px] md:h-[45px] sm:w-[40px] sm:h-[40px]">
+
+        <div class="w-[90%] h-auto lg:w-[85%] md:w-[80%] sm:w-[80%]">
+          <p class="text-[.9rem] text-Gb sm:text-[.8rem]">
+            <strong class="font-[800] text-Vdb hover:text-Blue cursor-pointer">
+              Nathan Peterson
+            </strong> 
+            reacted to your recent post 
+            <strong class="font-[700] text-Dgb hover:text-Blue cursor-pointer">
+              5 end-game strategies to increase your win rate
+            </strong>
+          </p>
+          <p class="text-[.9rem] text-Gb sm:text-[.8rem]">2 weeks ago</p>
+        </div>
+      </div>
+
+      <div class="w-full h-auto p-[20px] flex items-center justify-between md:p-[10px] sm:p-[5px]">
+
+        <img src="../images/avatar-anna-kim.webp" alt="" class="lg:w-[50px] lg:h-[50px] md:w-[45px] md:h-[45px] sm:w-[40px] sm:h-[40px]">
+
+        <div class="w-[90%] h-auto lg:w-[85%] md:w-[80%] sm:w-[80%]">
+          <p class="text-[.9rem] text-Gb sm:text-[.8rem]">
+            <strong class="font-[800] text-Vdb hover:text-Blue cursor-pointer">
+              Anna Kim
+            </strong> 
+            left the group 
+            <strong class="font-[700] text-Dgb hover:text-Blue cursor-pointer">
+              Chess Club
+            </strong>
+          </p>
+          <p class="text-[.9rem] text-Gb sm:text-[.8rem]">2 weeks ago</p>
+        </div>
+      </div>
+    </div>
+  </main>
+    
+  <footer class="text-[.8rem] text-center pb-[20px]">
+    Challenge by 
+    <a class="text-a" href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+      Frontend Mentor
+    </a>. 
+    Coded by <a class="text-a" href="#">Tari Doutua</a>.
+  </footer>
+
+  <script src="/src/script.js"></script>
+</body>
+</html>
