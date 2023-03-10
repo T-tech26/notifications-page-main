@@ -1,4 +1,4 @@
-"use strict"
+
 const markAsRead = document.querySelector('#mark-as-read');
 const newNotificationIdentifier = document.querySelector('#new-notf-id');
 const newNotificationIcon = document.querySelectorAll('#not-icon');
