@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](../images/My-project-screenshot.png)
+![](./images/My-project-screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://t-tech26.github.io/notifications-page-main/)
+- Live Site URL: [Add live site URL here](https://t-tech26.github.io/notifications-page-main/)
 
 ### Built with
 
@@ -37,7 +37,7 @@ Users should be able to:
 - Variable fonts
 - Tailwind flexbox
 - Mobile-first workflow
-- [Tailwind](https://tailwind.com)Tailwind framework
+- [Tailwind](https://tailwind.com) Tailwind framework
 
 ### What I learned
 
@@ -63,5 +63,5 @@ I'm looking forward on improving my skills on the following skills
 ## Author
 
 - Frontend Mentor - [@T-tech26](https://www.frontendmentor.io/profile/T-tech26)
-- LinkedIn - [@tariladei-doutua](https://www.your-site.com)
-- Twitter - [@TariDoutua](https://www.twitter.com/yourusername)
+- LinkedIn - [@tariladei-doutua](https://www.linkedin.com/posts/tariladei-doutua-109059226_frontend-mentor-responsive-notification-activity-7039990623638073344-vuMg?utm_source=share&utm_medium=member_desktop)
+- Twitter - [@TariDoutua](https://twitter.com/TariDoutua/status/1634223396354502658)
