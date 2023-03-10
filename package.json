@@ -1,8 +1,15 @@
 {
-  "devDependencies": {
-    "tailwindcss": "^3.2.7"
+  "name": "notifications-page-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "directories": {
+    "doc": "docs"
   },
   "scripts": {
-    "dev":"npx tailwindcss -i ./docs/tailwind.css -o ./docs/output.css --watch"
-  }
+    "tailwind": "npx tailwindcss -i ./docs/tailwind.css -o ./docs/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
