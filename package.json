@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./docs/tailwind.css -o ./docs/output.css --watch"
+    "tailwind": "npx tailwindcss -i ./src/tailwind.css -o ./docs/output.css --watch"
   },
   "keywords": [],
   "author": "",
